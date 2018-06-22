@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+#wrapper {width: 900px; margin: auto; background-color: aliceblue; border: 4px dotted lightblue; padding: 15px;}
+
+#headwrapper {height: 250px; width: 900px; margin: auto;}
+
+nav {text-align: center; font-family: skia, arial, sans-serif; background-color: skyblue; padding: 5px;}
+
+nav ul {list-style-type: none; margin: 0; padding: 0;}
+
+nav ul li {display: inline;}
+
+nav ul li a {padding: 5px 15px; background-color: skyblue; color: aliceblue; text-decoration: none; text-align: center; margin: 0px 30px}
+
+nav a:link {color: aliceblue;}
+
+nav a:visited {color: aliceblue;}
+
+nav a:hover {background-color: aliceblue; color: skyblue; font-style: italic;}
+
+h1 {font-family: Chalkduster, sans-serif; font-size: 3em; color: blueviolet;}
+
+body {font-family: skia, arial, sans-serif; text-align: justify; background-image: url(images/repeating_background.png);}
+
+h2 {color: navy; font-family: "Hobo Std", Arial, sans-serif; font-weight: bolder; font-size: 1.8em;}
+
+footer {text-align: center; font-family: skia, arial, sans-serif;}
+
+section li {font-size: 1.5em; font-family: Avenir, Arial, sans-serif; color: cornflowerblue}
+
+/* custom classes */
+
+.floatleft {float: left; margin-right: 10px;}
+
+.floatright {float: right; margin-left: 10px;}
+
+.floatbanner {float: right;}
+
+.movelogo {position: relative; margin-top: 147px; margin-left: -30px;}
+
+.fancytext {font-family: monaco, arial, sans-serif; font-weight: bolder; text-transform: uppercase; color: mediumpurple; font-style: italic;}
+
+ul.catbullet {list-style-image: url(images/bullet_black-cat.png);}
